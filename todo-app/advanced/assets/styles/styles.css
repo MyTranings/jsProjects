@@ -1,0 +1,34 @@
+.todo-add-form > * {
+  margin: .15rem;
+}
+
+.todo-list {
+  padding: 0;
+}
+
+.todo-list-item {
+  list-style: none;
+}
+
+.todo-list-item-label:hover,
+[data-list-item-checkbox]:hover {
+  cursor: pointer;
+}
+
+.todo-list-item-label:hover > [data-list-item-text] {
+  color: #333;
+  text-decoration: line-through;
+}
+
+[data-todo-list-item-checkbox]:checked ~ [data-list-item-text] {
+  text-decoration: line-through;
+  color: #AAA;
+}
+
+[data-button-delete] {
+  margin-left: .5rem;
+}
+
+button {
+  cursor: pointer;
+}
