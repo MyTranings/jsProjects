@@ -16,11 +16,11 @@
     <button type="submit">Add New Todo</button>
   </form>
 
-  <template>
-    <li class="todo-list-item">
-      <label class="todo-list-item-label">
-        <input type="checkbox" data-todo-list-item-checkbox>
-        <span data-todo-list-item-text></span>
+  <template id="todo-item-template">
+    <li class="todo-item">
+      <label class="todo-item-label">
+        <input type="checkbox" data-todo-item-checkbox>
+        <span data-todo-item-text></span>
       </label>
       <button data-button-delete>Delete</button>
     </li>
