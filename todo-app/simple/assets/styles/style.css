@@ -1,0 +1,9 @@
+.task-item {
+  cursor: pointer;
+  width: min-content;
+}
+
+.task-item:hover {
+  color: red;
+  text-decoration: line-through;
+}
